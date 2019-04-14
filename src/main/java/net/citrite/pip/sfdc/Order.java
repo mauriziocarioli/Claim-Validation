@@ -8,9 +8,7 @@ public class Order implements Serializable {
 
 	private static final long serialVersionUID = 6810510455129323181L;
 	
-	@org.kie.api.definition.type.Label("Order Header")
 	private OrderHeader OrderHeader;
-	@org.kie.api.definition.type.Label("Order Line Items")
 	private List<OrderLineItem> OrderLineItems;
 
 	public OrderHeader getOrderHeader() {

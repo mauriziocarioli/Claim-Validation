@@ -7,29 +7,17 @@ public class PartnerInfo implements Serializable {
 
 	private static final long serialVersionUID = 7348713232086389645L;
 	
-	@org.kie.api.definition.type.Label("Tags")
 	private Tag Tags;
-	@org.kie.api.definition.type.Label(value = "Partner Type")
 	private String Partner_Type;
-	@org.kie.api.definition.type.Label(value = "Partner Level")
 	private String Partner_Level;
-	@org.kie.api.definition.type.Label(value = "Partner Status")
 	private String Partner_Status;
-	@org.kie.api.definition.type.Label(value = "Partner Geo")
 	private String Partner_Geo;
-	@org.kie.api.definition.type.Label(value = "Partner Area")
 	private String Partner_Area;
-	@org.kie.api.definition.type.Label(value = "Partner Region")
 	private String Partner_Region;
-	@org.kie.api.definition.type.Label(value = "Partner_Territory")
 	private String Partner_Territory;
-	@org.kie.api.definition.type.Label(value = "Partner Compliance")
 	private String Partner_Compliance;
-	@org.kie.api.definition.type.Label(value = "Partner Membership Start Date")
 	private LocalDate Partner_Mship_Start_Date;
-	@org.kie.api.definition.type.Label(value = "Partner Membership End Date")
 	private LocalDate Partner_Mship_End_Date;
-	@org.kie.api.definition.type.Label(value = "Partner Membership Inception Date")
 	private LocalDate Partner_Mship_Inception_Date;
 
 	public Tag getTags() {

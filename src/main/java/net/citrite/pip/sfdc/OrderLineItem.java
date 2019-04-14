@@ -2,30 +2,19 @@ package net.citrite.pip.sfdc;
 
 import java.io.Serializable;
 
-@org.kie.api.definition.type.Label("Order Line Item")
 public class OrderLineItem implements Serializable {
 
 	private static final long serialVersionUID = 6096103652478769199L;
 	
-	@org.kie.api.definition.type.Label(value = "Order ID")
 	private String Order_ID;
-	@org.kie.api.definition.type.Label(value = "OrderLine ID")
 	private String OrderLine_ID;
-	@org.kie.api.definition.type.Label(value = "Product Type")
 	private String Product_Type;
-	@org.kie.api.definition.type.Label(value = "Edition")
 	private String Edition;
-	@org.kie.api.definition.type.Label(value = "SKU Marketing")
 	private String SKU_Marketing;
-	@org.kie.api.definition.type.Label(value = "Product Line ID")
 	private String Product_Line_ID;
-	@org.kie.api.definition.type.Label(value = "Discount Program")
 	private Double Discount_Program;
-	@org.kie.api.definition.type.Label(value = "Discount Channel")
 	private Double Discount_Channel;
-	@org.kie.api.definition.type.Label(value = "Discount Program Amount")
 	private Double Discount_Program_Amount;
-	@org.kie.api.definition.type.Label(value = "SRP USD")
 	private Double SRP_USD;
 
 	public String getOrder_ID() {

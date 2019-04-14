@@ -3,52 +3,30 @@ package net.citrite.pip.sfdc;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-@org.kie.api.definition.type.Label("Order Header")
 public class OrderHeader implements Serializable {
 
 	private static final long serialVersionUID = -1296275024467763333L;
 	
-	@org.kie.api.definition.type.Label("Order Type")
 	private String Order_Type;
-	@org.kie.api.definition.type.Label("Order ID")
 	private String Order_ID;
-	@org.kie.api.definition.type.Label("Order Amount")
 	private Double Order_Amount;
-	@org.kie.api.definition.type.Label("Award Type")
 	private String Award_Type;
-	@org.kie.api.definition.type.Label("Contract Type")
 	private String Contract_Type;
-	@org.kie.api.definition.type.Label("Contract Level")
 	private String Contract_Level;
-	@org.kie.api.definition.type.Label("Contract Number")
 	private String Contract_No;
-	@org.kie.api.definition.type.Label("Order Creation Date")
 	private LocalDate Order_Creation_Date;
-	@org.kie.api.definition.type.Label("Order Matched Date")
 	private LocalDate Order_Matched_Date;
-	@org.kie.api.definition.type.Label("Matched Registration ID")
 	private String Matched_Registration_ID;
-	@org.kie.api.definition.type.Label("Shared Reward Flag")
 	private Boolean Shared_Reward_Flag;
-	@org.kie.api.definition.type.Label("New Customer Flag")
 	private Boolean New_Customer_Flag;
-	@org.kie.api.definition.type.Label("PO Date")
 	private LocalDate PO_Date;
-	@org.kie.api.definition.type.Label("PO Number")
 	private String PO_Number;
-	@org.kie.api.definition.type.Label("Validation Status")
 	private String Validation_Status;
-	@org.kie.api.definition.type.Label("Failure Reasons")
 	private String Failure_Reasons;
-	@org.kie.api.definition.type.Label("Total Partner Eligible Amount")
 	private Double Total_Partner_Eligible_Amount;
-	@org.kie.api.definition.type.Label("Total Promo Amount")
 	private Double Total_Promo_Amount;
-	@org.kie.api.definition.type.Label("Total Base Amount")
 	private Double Total_Base_Amount;
-	@org.kie.api.definition.type.Label("Order Discounts")
 	private Double OrderDiscounts;
-	@org.kie.api.definition.type.Label("Distribution Channel")
 	private String distribution_Channel;
 
 	public String getOrder_Type() {

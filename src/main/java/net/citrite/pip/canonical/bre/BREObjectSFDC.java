@@ -10,13 +10,9 @@ public class BREObjectSFDC implements Serializable {
 
 	private static final long serialVersionUID = 5484795051075805077L;
 	
-	@org.kie.api.definition.type.Label("Request")
 	private Request Request;
-	@org.kie.api.definition.type.Label("Info")
 	private Info Info;
-	@org.kie.api.definition.type.Label(value = "Validations")
 	private List<Validation> Validations;
-	@org.kie.api.definition.type.Label(value = "Payout")
 	private String Payout;
 
 	public Request getRequest() {

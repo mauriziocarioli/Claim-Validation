@@ -7,17 +7,11 @@ public class RewardRegistration implements Serializable {
 
 	private static final long serialVersionUID = -1528041913511392459L;
 	
-	@org.kie.api.definition.type.Label(value = "Registration_ID")
 	private String Registration_ID;
-	@org.kie.api.definition.type.Label(value = "Incentive Type")
 	private String Incentive_Type;
-	@org.kie.api.definition.type.Label(value = "Reward Submitted Date")
 	private LocalDate Reward_Submitted_Date;
-	@org.kie.api.definition.type.Label(value = "Backend Applicable Flag")
 	private Boolean BackendApplicable_Flag;
-	@org.kie.api.definition.type.Label(value = "Frontend Applicable Flag")
 	private Boolean FrontendApplicable_Flag;
-	@org.kie.api.definition.type.Label(value = "Initial Submitted Date")
 	private LocalDate Initial_Submitted_Date;
 
 	public String getRegistration_ID() {

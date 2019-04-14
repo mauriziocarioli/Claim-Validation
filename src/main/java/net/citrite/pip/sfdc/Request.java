@@ -9,23 +9,14 @@ public class Request implements Serializable {
 
 	private static final long serialVersionUID = -1524280697031891812L;
 	
-	@org.kie.api.definition.type.Label(value = "Order")
 	private Order Order;
-	@org.kie.api.definition.type.Label(value = "Reward Registration")
 	private RewardRegistration RewardRegistration;
-	@org.kie.api.definition.type.Label(value = "Partner Info")
 	private PartnerInfo PartnerInfo;
-	@org.kie.api.definition.type.Label(value = "Partner Functions")
 	private PartnerFunctions PartnerFunctions;
-	@org.kie.api.definition.type.Label(value = "Original Order")
 	private OriginalOrder OriginalOrder;
-	@org.kie.api.definition.type.Label(value = "Sales Exceptions")
 	private List<String> SalesExceptions;
-	@org.kie.api.definition.type.Label(value = "Product Authorizations")
 	private List<AuthorizationItem> ProductAuthorizations;
-	@org.kie.api.definition.type.Label(value = "End User Info")
 	private EndUserInfo EndUserInfo;
-	@org.kie.api.definition.type.Label(value = "Specializations")
 	private List<Specialization> Specializations;
 
 	public Order getOrder() {
