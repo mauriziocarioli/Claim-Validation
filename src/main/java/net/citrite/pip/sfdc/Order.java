@@ -3,7 +3,6 @@ package net.citrite.pip.sfdc;
 import java.io.Serializable;
 import java.util.List;
 
-@org.kie.api.definition.type.Label("Order")
 public class Order implements Serializable {
 
 	private static final long serialVersionUID = 6810510455129323181L;
